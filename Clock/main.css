@@ -1,0 +1,65 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position:center;
+    height:522px;
+}
+.circle{
+    width:200px;
+    height:200px;
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0 auto;
+    border-radius:50%;
+    border:6px solid black;
+}
+
+.minline{
+    position:absolute;
+    left:2%;
+    height:0;
+    width:90px;
+    margin:0 auto;
+    top:50%;
+    transform:translateY(-50%);
+    transform:rotate(90deg);
+    transform-origin:100%;
+    transition:all 0.07s;
+    transition-timing-function: cubic-bezier(0.1,2.7,.58,1);
+    border:3px solid rgb(129, 36, 36);
+    
+}
+
+.secline{
+    position:absolute;
+    left:2%;
+    height:0;
+    width:90px;
+    margin:0 auto;
+    top:50%;
+    transform:translateY(-50%);
+    transform-origin:100%;
+    transform:rotate(90deg);
+    transition:all 0.05s;
+    transition-timing-function: cubic-bezier(0.1,2.7,.58,1);
+    
+    border:3px solid blue;
+   
+}
+
+.hourline{
+    position:absolute;
+    left:2%;
+    height:0;
+    width:90px;
+    margin:0 auto;
+    top:50%;
+    transform:translateY(-50%);
+    transform:rotate(90deg);
+    transform-origin:100%;
+    transition:all 0.07s;
+    transition-timing-function: cubic-bezier(0.1,2.7,.58,1);
+    border:3px solid yellow;
+
+}
